@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #dbdbdb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+}
+
+header .logo {
+    font-family: 'Billabong', cursive;
+    font-size: 1.5em;
+}
+
+header input[type="text"] {
+    padding: 5px;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+}
+
+header nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #262626;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.sidebar {
+    width: 20%;
+    margin-right: 20px;
+}
+
+.sidebar .profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.sidebar .profile img {
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.sidebar nav a {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #262626;
+}
+
+.feed {
+    width: 50%;
+}
+
+.post {
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    margin-bottom: 20px;
+    border-radius: 3px;
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.post-header img {
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.post-footer {
+    padding: 10px;
+}
+
+.post-footer p {
+    margin: 5px 0 0;
+}
+
+.suggestions {
+    width: 20%;
+}
+
+.suggestions h3 {
+    margin-bottom: 10px;
+}
+
+.suggestion {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.suggestion img {
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.suggestion button {
+    margin-left: auto;
+    padding: 5px 10px;
+    background-color: #3897f0;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
